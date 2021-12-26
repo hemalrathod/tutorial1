@@ -7,8 +7,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     int days=30;
     String name="Hemal";
-    return Material(
-        child: Center(
+    return Scaffold(
+        body: Center(
             child:Container(
                 child: Text("Welcome to $days days of flutter by $name")
             )
